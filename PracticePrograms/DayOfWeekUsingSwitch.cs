@@ -1,17 +1,10 @@
 ﻿using System;
 
-namespace CSharp
+namespace PracticePrograms
 {
-    class Program
+    public class DayOfWeekUsingSwitch
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine(GetDay(0));
-            
-            Console.ReadLine();
-        }
-
-        static string GetDay(int dayNum)
+        public string GetDay(int dayNum)
         {
             string dayName;
 
